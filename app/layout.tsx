@@ -1,12 +1,9 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import { GeistSans } from "geist/font/sans";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] });
-
-export const metadata: Metadata = {
-  title: 'Handsontable Next.js Example',
-  description: 'Handsontable Next.js Example',
+export const metadata = {
+  title: "Handsontable Demo",
+  description: "Showing off the new react wrapper",
 };
 
 export default function RootLayout({
@@ -15,8 +12,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={GeistSans.className}>
+      <body className="bg-background text-foreground">
+        <main className="min-h-screen flex flex-col items-center">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
