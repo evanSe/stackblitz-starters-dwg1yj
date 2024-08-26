@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@handsontable/react": "https://pkg.csb.dev/handsontable/handsontable/commit/0306a1a9/@handsontable/react",
+    "@handsontable/react": "0.0.0-next-0306a1a-20240826",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
@@ -21,7 +21,7 @@
     "dayjs": "^1.11.10",
     "dexie": "^4.0.8",
     "geist": "^1.2.1",
-    "handsontable": "https://pkg.csb.dev/handsontable/handsontable/commit/0306a1a9/handsontable",
+    "handsontable": "0.0.0-next-0306a1a-20240826",
     "hyperformula": "^2.6.1",
     "next": "latest",
     "pdfmake": "^0.2.9",
